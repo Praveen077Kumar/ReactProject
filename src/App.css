@@ -1,15 +1,46 @@
-header div{
-
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 
 }
+header div{
+  text-align: center;
+}
+
+.body_container{
+   background-color: rgba(180, 36, 60, 0.904);
+   color: white;
+   
+}
+.container{
+  background-color: rgba(17, 13, 13, 0.534);
+}
+
+.container select{
+  background-color: rgba(214, 189, 171, 0.795);
+  height: 6vh;
+  margin-top: 15px;
+
+}
+
+.container select:hover{
+  background-color: rgb(225, 245, 50);
+
+}
+.container select:focus{
+  background-color: rgb(40, 218, 165);
+}
+
 
 .card-collection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid transparent;
+ 
 }
 
 
 .standout {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51,51) 0px 0px 0px 3px;
 }
+
